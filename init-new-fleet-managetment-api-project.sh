@@ -184,3 +184,11 @@ EOL
 fi
 
 echo "Setup is complete! You can now develop the Fleet Management System."
+
+dotnet restore
+
+dotnet build
+
+dotnet test
+
+dotnet run
