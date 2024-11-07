@@ -185,6 +185,10 @@ fi
 
 echo "Setup is complete! You can now develop the Fleet Management System."
 
+dotnet add package Microsoft.AspNetCore.Mvc
+dotnet add package Microsoft.EntityFrameworkCore
+
+
 dotnet restore
 
 dotnet build
